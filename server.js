@@ -8,7 +8,7 @@ var db, collection;
 const url = "mongodb+srv://Meek:Menace@cluster0.sc3n1.mongodb.net/?retryWrites=true&w=majority";
 const dbName = "demo";
 
-app.listen(5000, () => {
+app.listen(6000, () => {
     MongoClient.connect(url, { useNewUrlParser: true, useUnifiedTopology: true }, (error, client) => {
         if(error) {
             throw error;
